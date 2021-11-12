@@ -1,0 +1,20 @@
+.tabs .indicator {
+background-color: white;
+}
+body {
+    background-color: #edf3e2;
+}
+.title {
+    font-size: 1.3rem;
+    margin-left: 5%;
+    margin-right: auto;
+}
+.fix-top {
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+.section {
+    padding-top: 125px;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>PistacheMint Garçon</title>
+    <link rel="stylesheet" href="icons/material.css">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="fix-top z-depht-1">
+    <div class="valign-wrapper teal lighten-4 brown-text">
+        <h3 class="title">PistacheMint</h3>
+        <div>
+            <i class="material-icons waves-effect waves-light 
+            waves-circle dropdown-button" data-activates="submenu" data-gutter="5"
+            data-constrainwidth="false">
+            more_vert
+        </i>
+        <ul id="submenu" class="dropdown-content">
+            <li><a class="black-text act-clear">Limpar</a></li>
+        </ul>
+        </div>
+    </div>        
+    </div>
+
+    <ul class="tabs teal lighten-4">
+        <li class="tab brown-text text-lighten-1 waves-effect waves-light"><a class="brown-text" href="#ice">Sorvetes</a></li>
+        <li class="tab brown-text text-lighten-1 waves-effect waves-light"><a class="brown-text" href="#drink">Bebidas</a></li>
+    </ul>
+
+    <div id="ice" class="section">
+        <h6 class="container light-green-text text-darken-4">Sorvetes</h6>
+        <div class="collection">
+        <a class="collection-item waves-effect teal-text text-darken-4">Baunilha</a>
+        <a class="collection-item waves-effect teal-text text-darken-4">Chocolate</a>
+        <a class="collection-item waves-effect teal-text text-darken-4">Morango</a>
+        <a class="collection-item waves-effect teal-text text-darken-4">Pistache</a>
+        <a class="collection-item waves-effect teal-text text-darken-4">Flocos</a>
+        <a class="collection-item waves-effect teal-text text-darken-4">Menta</a>
+        <a class="collection-item waves-effect teal-text text-darken-4">Doce de Leite</a>
+        <a class="collection-item waves-effect teal-text text-darken-4">Milho Verde</a>
+        <a class="collection-item waves-effect teal-text text-darken-4">Paçoca</a>
+        <a class="collection-item waves-effect teal-text text-darken-4">Chocolate Amargo</a>
+        <a class="collection-item waves-effect teal-text text-darken-4">Limão Siciliano</a>
+        <a class="collection-item waves-effect teal-text text-darken-4">Tutti-Frutti</a>
+        <a class="collection-item waves-effect teal-text text-darken-4">Leite Condensado</a>   
+        </div> 
+        
+        
+        
+    </div>
+
+    <div id="drink" class="section">
+        <h6 class="container light-green-text text-darken-4">Milk Shakes</h6>
+        <div class="collection">
+        <a class="collection-item waves-effect teal-text text-darken-4">Chocolate</a>
+        <a class="collection-item waves-effect teal-text text-darken-4">Morango</a>
+        <a class="collection-item waves-effect teal-text text-darken-4">Ninho</a>
+        <a class="collection-item waves-effect teal-text text-darken-4">Leite Condensado</a>
+        <a class="collection-item waves-effect teal-text text-darken-4">Doce de Leite</a>
+        <a class="collection-item waves-effect teal-text text-darken-4">Nutella</a>
+  
+        </div>
+        <h6 class="container light-green-text text-darken-4">Sucos</h6>
+        <div class="collection">
+        <a class="collection-item waves-effect teal-text text-darken-4">Laranja</a>
+        <a class="collection-item waves-effect teal-text text-darken-4">Morango</a>
+        <a class="collection-item waves-effect teal-text text-darken-4">Kiwi</a> 
+        <a class="collection-item waves-effect teal-text text-darken-4">Melancia</a>
+        <a class="collection-item waves-effect teal-text text-darken-4">Abacaxi</a>
+        <a class="collection-item waves-effect teal-text text-darken-4">Goiaba</a> 
+        </div>
+    </div>
+
+    <div class="fixed-action-btn">
+        <a class="btn-floating btn-large waves-effect waves-light teal darken-1 modal-trigger" href="#confirma"
+            id="confirm">
+            <i class="material-icons">done</i>
+        </a>
+    </div>
+    
+    <div id="confirma" class="modal modal-fixed-footer">
+        <div class="modal-content">
+            <h5>Resumo do pedido</h5>
+            <input id="n-mesa" type="number" class="validate" placeholder="Número da mesa">
+            <blockquote id="resumo"></blockquote>
+        </div>
+        <div class="modal-footer">
+            <button class="btn teal lighten-4 brown-text text-lighten-1 waves-effect waves-light modal-close">
+                Pedir
+            </button>
+            <button class="btn-flat waves-effect waves-red modal-close acao-limpar">
+                Cancelar
+            </button>
+        </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+</html>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+</body>
+</html>
